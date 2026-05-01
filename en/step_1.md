@@ -50,7 +50,7 @@ line_highlights: 13-48
   <section class="row row-six">
     <p class="circle">Never</p>
     <p class="circle">trust</p>
-    <p class="circle">beige</p>
+    <p class="circle">boring</p>
     <p class="circle">unicorn</p>
     <p class="circle">poop</p>
   </section>
