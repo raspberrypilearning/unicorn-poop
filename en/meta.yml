@@ -1,14 +1,19 @@
-title: Project title in sentence case
+title: Unicorn poop
 hero_image: images/banner.png
-description: A short description of the project
+description: Create a colourful web poster with shapes, gradients, and a scrolling ticker.
 listed: false
 pdf: false
+landing: true
 steps:
-  - title: What you will make
-  - title: Step title
+  - title: Add fact rows
+  - title: Colour the rows
     completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
+      - engaged
+  - title: Style the shapes
+    completion:
+      - internal
+  - title: Make a ticker
     completion:
       - external
+  - title: Challenge
+    challenge: true

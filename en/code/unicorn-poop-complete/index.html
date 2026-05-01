@@ -1,19 +1,13 @@
-<h2 class="c-project-heading--task">Add fact rows</h2>
+<!doctype html>
+<html lang="en">
 
-Add the HTML rows that will hold the facts in your unicorn poop poster.
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unicorn Poop Facts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-Find the empty `<body>` tags in `index.html`, then replace them with these rows.
-
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 11
-line_highlights: 13-48
----
 <body>
 
   <!-- Each row is a band in the poster. -->
@@ -48,18 +42,24 @@ line_highlights: 13-48
   </section>
 
   <section class="row row-six">
-    <p class="circle">Never</p>
-    <p class="circle">trust</p>
-    <p class="circle">beige</p>
-    <p class="circle">unicorn</p>
-    <p class="circle">poop</p>
+    <section class="ticker">
+      <section class="ticker-set">
+        <p class="circle">Never</p>
+        <p class="circle">trust</p>
+        <p class="circle">beige</p>
+        <p class="circle">unicorn</p>
+        <p class="circle">poop</p>
+      </section>
+      <section class="ticker-set">
+        <p class="circle">Never</p>
+        <p class="circle">trust</p>
+        <p class="circle">beige</p>
+        <p class="circle">unicorn</p>
+        <p class="circle">poop</p>
+      </section>
+    </section>
   </section>
 
 </body>
---- /code ---
 
-</div>
-
-<h2 class="c-project-heading--task">Test</h2>
-
-Run your code and check that the fact text appears in separate rows on the page.
+</html>

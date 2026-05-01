@@ -1,18 +1,19 @@
-# default-project-template
+# Unicorn poop
 
-![default-project-template](banner.png)
+![Unicorn poop](banner.png)
 
-Find the project online at [projects.raspberrypi.org/en/projects/default-project-template](https://projects.raspberrypi.org/en/projects/default-project-template)
+Create a colourful web poster of unicorn poop facts with shapes, gradients, and a scrolling ticker.
+
+Find the project online at [projects.raspberrypi.org/en/projects/unicorn-poop](https://projects.raspberrypi.org/en/projects/unicorn-poop).
 
 ## Resources
-For project materials and solutions, see [en/resources](https://github.com/raspberrypilearning/default-project-template/tree/master/en/resources) and [en/solutions](https://github.com/raspberrypilearning/default-project-template/tree/master/en/solutions).
+
+Project files are in [en/code](en/code).
 
 ## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Licence
-See [LICENCE.md](LICENCE.md)
 
-## Setting up a Crowdin project
-
-See [CROWDIN.md](CROWDIN.md).
+See [LICENCE.md](LICENCE.md).
