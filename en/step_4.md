@@ -21,14 +21,14 @@ line_highlights: 42-57
       <section class="ticker-set">
         <p class="circle">Never</p>
         <p class="circle">trust</p>
-        <p class="circle">beige</p>
+        <p class="circle">boring</p>
         <p class="circle">unicorn</p>
         <p class="circle">poop</p>
       </section>
       <section class="ticker-set">
         <p class="circle">Never</p>
         <p class="circle">trust</p>
-        <p class="circle">beige</p>
+        <p class="circle">boring</p>
         <p class="circle">unicorn</p>
         <p class="circle">poop</p>
       </section>
