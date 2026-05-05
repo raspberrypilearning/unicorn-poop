@@ -1,46 +1,40 @@
-## Make more rows
+## Style all the shapes
 
-Add more rows and experiment with different text and shapes in your code.
+Give the shapes the same basic spacing and alignment.
 
-First add new rows and shapes in the HTML.
+In the CSS file, near the top of the file, add one shared style for the shape classes.
 
 --- code ---
 ---
-language: html
-filename: index.html
+language: css
+filename: style.css
 line_numbers: true
-line_number_start: 41
-line_highlights: 42-57
+line_number_start: 28
+line_highlights: 28-43
 ---
-    <p class="rounded"></p>
-  </section>
-
-  <section class="row row-three">
-    <p class="banner"></p>
-    <p class="banner">UNICORN POOP</p>
-    <p class="banner"></p>
-  </section>
-
-  <section class="row row-four">
-    <p class="rectangle">sticky rainbows</p>
-    <p class="rectangle">each cube smells like sweets</p>
-    <p class="rectangle">magical digestion</p>
-  </section>
-
-  <section class="row row-five">
-    <p class="rounded">It dissolves into confetti</p>
-  </section>
-
-  <section class="row row-six">
-    <section class="ticker">
-      <section class="ticker-set">
-        <p class="circle">Never</p>
-        <p class="circle">trust</p>
-        <p class="circle">boring</p>
-        <p class="circle">unicorn</p>
-        <p class="circle">poop</p>
-      </section>
+.rounded,
+.banner,
+.square,
+.rectangle,
+.circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 4px 6px;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+  min-height: 50px;
+  min-width: 50px;
+}
 --- /code ---
 
 ### Now run your code
-Run your code and check that the final row scrolls across the screen again and again.
+Run your code and check that the words sit in the middle of each shape. Play with values until you have the look you want.
+
+<div class="c-project-output">
+
+![Two coloured rows with centred text inside the shapes.](images/step_4_output.png)
+
+</div>

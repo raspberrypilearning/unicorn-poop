@@ -1,4 +1,4 @@
-title: Unicorn poop
+title: Mostly glitter
 hero_image: images/banner.png
 description: Create a colourful website with shapes, gradients, and a scrolling ticker.
 listed: false
@@ -12,11 +12,9 @@ steps:
   - title: Step 3
   - title: Step 4
   - title: Step 5
-    completion:
-      - internal
   - title: Step 6
     completion:
-      - external
+      - internal
   - title: Step 7
     challenge: true
   - title: Step 8

@@ -1,0 +1,4 @@
+name: "Mostly glitter"
+identifier: "mostly-glitter-complete"
+type: 'html'
+build: true

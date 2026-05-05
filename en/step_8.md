@@ -1,6 +1,6 @@
 ## Challenge: add a moving ticker style
 
-Add the animation in CSS to move the ticker across the row.
+Add the CSS to move the ticker text.
 
 --- code ---
 ---
@@ -8,11 +8,26 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 65
-line_highlights: 71-93
+line_highlights: 65-106
 ---
+.row-five {
+  background: greenyellow;
+}
+
+.row-six {
+  background: orange;
+}
+
+.circle {
+  width: 66px;
+  height: 66px;
+  background: radial-gradient(circle, lime, mediumorchid);
+  border-radius: 50%;
+  font-size: 10px;
+}
+
 .row-six {
   overflow: hidden;
-  background: orange;
 }
 
 .ticker {
@@ -41,3 +56,9 @@ line_highlights: 71-93
 
 ### Now run your code
 Check that the final row scrolls across the screen again and again.
+
+<div class="c-project-output">
+
+![A colourful page with circular ticker words moving across the final row.](images/step_8_output.png)
+
+</div>

@@ -8,11 +8,9 @@ In the HTML file, add shape classes `square` and `rounded` inside both of the `<
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 11
-line_highlights: 13-48
+line_number_start: 9
+line_highlights: 10, 14
 ---
-<body>
-
   <section class="row row-one">
     <p class="square">Mostly glitter</p>
   </section>
@@ -20,8 +18,6 @@ line_highlights: 13-48
   <section class="row row-two">
     <p class="rounded">A SERIOUS ART</p>
   </section>
-
-</body>
 --- /code ---
 
 ### Step 2
@@ -36,11 +32,11 @@ Style the CSS to make the shapes how you want:
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 16
-line_highlights: 16-64
+line_number_start: 19
+line_highlights: 19-26
 ---
 .square {
-  background: radial-gradient(MediumSpringGreen, blue);
+  background: radial-gradient(MediumSpringGreen, yellow);
 }
 
 .rounded {
@@ -49,7 +45,11 @@ line_highlights: 16-64
 }
 --- /code ---
 
-
 ### Now run your code
-Check that each row has a different background colour.
+Check that the words have colourful shape backgrounds.
 
+<div class="c-project-output">
+
+![Two coloured rows with gradient shapes behind the text.](images/step_3_output.png)
+
+</div>

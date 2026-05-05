@@ -1,0 +1,4 @@
+name: "Mostly glitter"
+identifier: "mostly-glitter-starter"
+type: 'html'
+build: true

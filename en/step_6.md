@@ -1,44 +1,38 @@
 ## Style the new rows
 
-Then add style the new rows and shapes in the CSS
+Then style the new rows and shapes in the CSS.
 
 ### Step 1
-
-Change the background colours on each row.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 65
-line_highlights: 71-93
----
-.row-two { background: mediumseagreen; }
-.row-three { background: deeppink; }
-.row-four { background: blueviolet; }
-.row-five { background: greenyellow; }
-.row-six { background: orange; }
---- /code ---
-
-
-### Step 2
-
-Add shapes and experiment how they look.
+Change the background colours on each new row.
 
 --- code ---
 ---
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 65
-line_highlights: 71-93
+line_number_start: 19
+line_highlights: 19-25
 ---
-.rounded {
-  background: linear-gradient(190deg, deeppink, yellow);
-  border-radius: 999px;
+.row-three { 
+  background: deeppink; 
 }
 
+.row-four { 
+  background: blueviolet; 
+}
+--- /code ---
+
+### Step 2
+Experiment with the shapes and colours in CSS.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 53
+line_highlights: 53-63
+---
 .banner {
   background: radial-gradient(circle, aqua, red);
   border-radius: 22px;
@@ -50,15 +44,18 @@ line_highlights: 71-93
 .rectangle {
   background: radial-gradient(MediumSpringGreen, blue);
 }
-
-.circle {
-  width: 66px;
-  height: 66px;
-  background: radial-gradient(circle, lime, mediumorchid);
-  border-radius: 50%;
-  font-size: 10px;
-}
 --- /code ---
 
 ### Now run your code
-Run your code and check that the final row scrolls across the screen again and again.
+Run your code and check that the new rows and shapes have colours.
+
+> ### Debugging
+> 
+> If a shape does not change, check that the class name in your HTML matches the CSS name exactly.
+{: .c-project-callout .c-project-callout--debug}
+
+<div class="c-project-output">
+
+![Four colourful rows with styled banner and rectangle shapes.](images/step_6_output.png)
+
+</div>

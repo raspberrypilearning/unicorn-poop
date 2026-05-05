@@ -1,17 +1,22 @@
 ## Challenge: add a moving ticker text
 
-Make the shapes in last row scroll like a news ticker.
+Add new rows that will scroll like a news ticker.
 
-First replace the last row in `index.html` with two matching ticker sets.
+Add a row for the confetti text and a row with two matching ticker sets.
 
 --- code ---
 ---
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 65
-line_highlights: 71-93
+line_number_start: 27
+line_highlights: 27-48
 ---
+  <section class="row row-five">
+    <p class="rounded">It dissolves into confetti</p>
+  </section>
+
+  <section class="row row-six">
     <section class="ticker">
       <section class="ticker-set">
         <p class="circle">Never</p>
@@ -28,7 +33,14 @@ line_highlights: 71-93
         <p class="circle">poop</p>
       </section>
     </section>
+  </section>
 --- /code ---
 
 ### Now run your code
-Add your own text or shapes.
+Run your code and check that the ticker words appear in the final row.
+
+<div class="c-project-output">
+
+![A page with a final row of repeated ticker words.](images/step_7_output.png)
+
+</div>

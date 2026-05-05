@@ -2,25 +2,20 @@
 
 Add more rows and experiment with different text and shapes in your code.
 
-### Step 1
+Two more rows are shown here, you can add as many rows as you like in the same way.
 
-First add new rows and shapes in the HTML.
+Add more rows in HTML. Include your text and shape names.
 
 --- code ---
 ---
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 41
-line_highlights: 42-57
+line_number_start: 17
+line_highlights: 17-25
 ---
-    <p class="rounded"></p>
-  </section>
-
   <section class="row row-three">
-    <p class="banner"></p>
     <p class="banner">UNICORN POOP</p>
-    <p class="banner"></p>
   </section>
 
   <section class="row row-four">
@@ -28,68 +23,13 @@ line_highlights: 42-57
     <p class="rectangle">each cube smells like sweets</p>
     <p class="rectangle">magical digestion</p>
   </section>
-
-  <section class="row row-five">
-    <p class="rounded">It dissolves into confetti</p>
-  </section>
-
-  <section class="row row-six">
-    <section class="ticker">
-      <section class="ticker-set">
-        <p class="circle">Never</p>
-        <p class="circle">trust</p>
-        <p class="circle">boring</p>
-        <p class="circle">unicorn</p>
-        <p class="circle">poop</p>
-      </section>
 --- /code ---
-
-### Step 2
-
-Experiment with colours in the CSS.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 65
-line_highlights: 71-93
----
-
-.rounded {
-  background: linear-gradient(190deg, deeppink, yellow);
-  border-radius: 999px;
-  padding: 8px 14px;
-}
-
-.banner {
-  background: radial-gradient(circle, aqua, red);
-  border-radius: 22px;
-  padding: 5px;
-  width: 100px;
-  font-weight: 700;
-}
-
-.square {
-  background: linear-gradient(145deg, LemonChiffon, orchid);
-}
-
-.rectangle {
-  background: radial-gradient(MediumSpringGreen, blue);
-}
-
-.circle {
-  width: 66px;
-  height: 66px;
-  background: radial-gradient(circle, lime, mediumorchid);
-  border-radius: 50%;
-  font-size: 10px;
-}
---- /code ---
-
-
 
 ### Now run your code
+Run your code and check that the new rows appear under the first two rows.
 
-Run your code and check that the final row scrolls across the screen again and again.
+<div class="c-project-output">
+
+![Four rows of text with new rows added underneath.](images/step_5_output.png)
+
+</div>
