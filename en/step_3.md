@@ -1,10 +1,35 @@
-<h2 class="c-project-heading--task">Style the shapes</h2>
+## Make shapes
 
-Style the pill, banner, square, and circle shapes used in your poster.
+### Step 1
+In the HTML file, add shape classes `square` and `rounded` inside both of the `<p>` tags.
 
-Add this code to the bottom of `style.css`.
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 11
+line_highlights: 13-48
+---
+<body>
 
-<div class="c-project-code">
+  <section class="row row-one">
+    <p class="square">Mostly glitter</p>
+  </section>
+
+  <section class="row row-two">
+    <p class="rounded">A SERIOUS ART</p>
+  </section>
+
+</body>
+--- /code ---
+
+### Step 2
+
+Style the CSS to make the shapes how you want:
+
+- edit the colour of the gradients by changing the colour names
+- experiment with the `border-radius` number to make the shape more rounded.
 
 --- code ---
 ---
@@ -14,56 +39,17 @@ line_numbers: true
 line_number_start: 16
 line_highlights: 16-64
 ---
-.pill,
-.banner,
-.square-1,
-.square-2,
-.circle {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  margin: 4px 6px;
-  padding: 8px;
-  text-align: center;
-  vertical-align: middle;
-  min-height: 50px;
-  min-width: 50px;
-}
-
-.pill {
-  background: linear-gradient(190deg, deeppink, yellow);
-  border-radius: 999px;
-  padding: 8px 14px;
-}
-
-.banner {
-  background: radial-gradient(circle, aqua, red);
-  border-radius: 22px;
-  padding: 5px 5px;
-  width: 100px;
-  font-weight: 700;
-}
-
-.square-1 {
-  background: linear-gradient(145deg, LemonChiffon, orchid);
-}
-
-.square-2 {
+.square {
   background: radial-gradient(MediumSpringGreen, blue);
 }
 
-.circle {
-  width: 66px;
-  height: 66px;
-  background: radial-gradient(circle, lime, mediumorchid);
-  border-radius: 50%;
-  font-size: 10px;
+.rounded {
+  background: linear-gradient(190deg, deeppink, yellow);
+  border-radius: 999px;
 }
 --- /code ---
 
-</div>
 
-<h2 class="c-project-heading--task">Test</h2>
+### Now run your code
+Check that each row has a different background colour.
 
-Run your code and check that the facts now sit inside colourful shapes.

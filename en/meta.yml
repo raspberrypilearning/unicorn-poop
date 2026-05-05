@@ -1,19 +1,23 @@
 title: Unicorn poop
 hero_image: images/banner.png
-description: Create a colourful web poster with shapes, gradients, and a scrolling ticker.
+description: Create a colourful website with shapes, gradients, and a scrolling ticker.
 listed: false
 pdf: false
 landing: true
 steps:
-  - title: Add fact rows
-  - title: Colour the rows
+  - title: Step 1
+  - title: Step 2
     completion:
       - engaged
-  - title: Style the shapes
+  - title: Step 3
+  - title: Step 4
+  - title: Step 5
     completion:
       - internal
-  - title: Make a ticker
+  - title: Step 6
     completion:
       - external
-  - title: Challenge
+  - title: Step 7
+    challenge: true
+  - title: Step 8
     challenge: true

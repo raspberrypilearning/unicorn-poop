@@ -17,10 +17,10 @@ body {
 .row-five { background: greenyellow; }
 .row-six { background: orange; }
 
-.pill,
+.rounded,
 .banner,
-.square-1,
-.square-2,
+.square,
+.rectangle,
 .circle {
   display: inline-flex;
   align-items: center;
@@ -34,7 +34,7 @@ body {
   min-width: 50px;
 }
 
-.pill {
+.rounded {
   background: linear-gradient(190deg, deeppink, yellow);
   border-radius: 999px;
   padding: 8px 14px;
@@ -48,11 +48,11 @@ body {
   font-weight: 700;
 }
 
-.square-1 {
+.square {
   background: linear-gradient(145deg, LemonChiffon, orchid);
 }
 
-.square-2 {
+.rectangle {
   background: radial-gradient(MediumSpringGreen, blue);
 }
 
