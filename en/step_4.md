@@ -1,35 +1,46 @@
-## Style text
+## Make more rows
 
-In the CSS, style how the text looks in both the shapes.
+Add more rows and experiment with different text and shapes in your code.
 
-<div class="c-project-code">
+First add new rows and shapes in the HTML.
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: html
+filename: index.html
 line_numbers: true
-line_number_start: 16
-line_highlights: 16-64
+line_number_start: 41
+line_highlights: 42-57
 ---
+    <p class="rounded"></p>
+  </section>
 
-TO DO _ MAKe THIS LEANER!
-.square,
-.rounded {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  margin: 4px 6px;
-  padding: 8px;
-  text-align: center;
-  vertical-align: middle;
-  min-height: 50px;
-  min-width: 50px;
-}
+  <section class="row row-three">
+    <p class="banner"></p>
+    <p class="banner">UNICORN POOP</p>
+    <p class="banner"></p>
+  </section>
 
+  <section class="row row-four">
+    <p class="rectangle">sticky rainbows</p>
+    <p class="rectangle">each cube smells like sweets</p>
+    <p class="rectangle">magical digestion</p>
+  </section>
+
+  <section class="row row-five">
+    <p class="rounded">It dissolves into confetti</p>
+  </section>
+
+  <section class="row row-six">
+    <section class="ticker">
+      <section class="ticker-set">
+        <p class="circle">Never</p>
+        <p class="circle">trust</p>
+        <p class="circle">boring</p>
+        <p class="circle">unicorn</p>
+        <p class="circle">poop</p>
+      </section>
 --- /code ---
 
 ### Now run your code
-Play with the XXXXX
-
+Run your code and check that the final row scrolls across the screen again and again.
