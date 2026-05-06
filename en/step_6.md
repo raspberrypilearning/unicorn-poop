@@ -1,18 +1,23 @@
 ## Style the new rows
 
-Then style the new rows and shapes in the CSS.
+Then style the new rows and shapes in the **CSS tab**.
 
 ### Step 1
 Change the background colours on each new row.
+
+<div class="c-project-code">
 
 --- code ---
 ---
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 19
+line_number_start: 16
 line_highlights: 19-25
 ---
+  background: mediumseagreen;
+} 
+
 .row-three { 
   background: deeppink; 
 }
@@ -20,19 +25,28 @@ line_highlights: 19-25
 .row-four { 
   background: blueviolet; 
 }
+
+.square {
 --- /code ---
 
+</div>
+
 ### Step 2
-Experiment with the shapes and colours in CSS.
+Experiment with new shapes.
+
+<div class="c-project-code">
 
 --- code ---
 ---
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 53
-line_highlights: 53-63
+line_number_start: 33
+line_highlights: 36-46
 ---
+  border-radius: 999px;
+}
+
 .banner {
   background: radial-gradient(circle, aqua, red);
   border-radius: 22px;
@@ -44,10 +58,15 @@ line_highlights: 53-63
 .rectangle {
   background: radial-gradient(MediumSpringGreen, blue);
 }
+
+.rounded,
+.square {
 --- /code ---
 
+</div>
+
 ### Now run your code
-Run your code and check that the new rows and shapes have colours.
+Check that the new rows and shapes look how you want.
 
 > ### Debugging
 > 
@@ -56,6 +75,6 @@ Run your code and check that the new rows and shapes have colours.
 
 <div class="c-project-output">
 
-![Four colourful rows with styled banner and rectangle shapes.](images/step_6_output.png)
+![Four colourful rows with styled banner and rectangle shapes.](images/step6.png)
 
 </div>

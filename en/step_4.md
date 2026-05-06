@@ -1,8 +1,10 @@
 ## Style all the shapes
 
-Give the shapes the same basic spacing and alignment.
+Give the shapes spacing and alignment.
 
-In the CSS file, near the top of the file, add one shared style for the shape classes.
+In the **CSS tab** add a shared style for both the shape classes.
+
+<div class="c-project-code">
 
 --- code ---
 ---
@@ -13,10 +15,7 @@ line_number_start: 28
 line_highlights: 28-43
 ---
 .rounded,
-.banner,
-.square,
-.rectangle,
-.circle {
+.square {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -30,11 +29,13 @@ line_highlights: 28-43
 }
 --- /code ---
 
+</div>
+
 ### Now run your code
-Run your code and check that the words sit in the middle of each shape. Play with values until you have the look you want.
+Check that the words sit in the middle of each shape. 
 
 <div class="c-project-output">
 
-![Two coloured rows with centred text inside the shapes.](images/step_4_output.png)
+![Two coloured rows with centred text inside the shapes.](images/step4.png)
 
 </div>

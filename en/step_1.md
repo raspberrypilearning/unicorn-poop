@@ -1,6 +1,6 @@
 ## Add text to the rows
 
-In the HTML tab add your first two rows. Replace the text in both rows after the `<p>`.
+In the **HTML tab** add the first two rows. You can replace the text after the `<p>` with your own words.
 
 <div class="c-project-code">
 
@@ -28,10 +28,10 @@ line_highlights: 9-15
 </div>
 
 ### Now run your code
-Check that the text appears in separate rows on the page.
+Check that the text appears in separate rows.
 
 <div class="c-project-output">
 
-![Two lines of text on a white page.](images/step_1_output.png)
+![Two lines of text on a white page.](images/step1.png)
 
 </div>

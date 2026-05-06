@@ -6,7 +6,7 @@ Open the CSS file from the project files tab.
 
 ### Step 2
 
-Add the CSS code to style the rows with bright colours.
+Add the CSS code to style the rows, and replace the colour name with your own.
 
 > ### Tip
 > 
@@ -14,7 +14,7 @@ Add the CSS code to style the rows with bright colours.
 > Visit <a href="https://www.w3schools.com/colors/colors_hex.asp">this website</a> to find more colour names.
 {: .c-project-callout .c-project-callout--tip}
 
-Replace the colour name with your own.
+<div class="c-project-code">
 
 --- code ---
 ---
@@ -41,11 +41,13 @@ line_highlights: 7-17
 }
 --- /code ---
 
+</div>
+
 ### Now run your code
-Check that each row has a different background colour.
+Check that each row has a different background colour. Experiment with colours until you find two you like.
 
 <div class="c-project-output">
 
-![Two rows with blue and green backgrounds.](images/step_2_output.png)
+![Two rows with blue and green backgrounds.](images/step2.png)
 
 </div>

@@ -1,7 +1,9 @@
-## Make shapes
+## Make some shapes
 
 ### Step 1
-In the HTML file, add shape classes `square` and `rounded` inside both of the `<p>` tags.
+In the **HTML tab**, add shape the classes `square` and `rounded` inside both of the `<p>` tags.
+
+<div class="c-project-code">
 
 --- code ---
 ---
@@ -20,12 +22,16 @@ line_highlights: 10, 14
   </section>
 --- /code ---
 
+</div>
+
 ### Step 2
 
-Style the CSS to make the shapes how you want:
+In the **CSS tab**, style the shapes:
 
-- edit the colour of the gradients by changing the colour names
-- experiment with the `border-radius` number to make the shape more rounded.
+- edit the colour of the gradients by changing the names
+- experiment with the `border-radius` and `linear-gradient` values.
+
+<div class="c-project-code">
 
 --- code ---
 ---
@@ -45,11 +51,13 @@ line_highlights: 19-26
 }
 --- /code ---
 
+</div>
+
 ### Now run your code
 Check that the words have colourful shape backgrounds.
 
 <div class="c-project-output">
 
-![Two coloured rows with gradient shapes behind the text.](images/step_3_output.png)
+![Two coloured rows with gradient shapes behind the text.](images/step3.png)
 
 </div>

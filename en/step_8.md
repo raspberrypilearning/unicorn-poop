@@ -1,64 +1,43 @@
-## Challenge: add a moving ticker style
+## Decorate with blank shapes
 
-Add the CSS to move the ticker text.
+In the **HTML tab**, add blank shapes before and after your text shapes to make patterns.
+
+<div class="c-project-code">
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: html
+filename: index.html
 line_numbers: true
-line_number_start: 65
-line_highlights: 65-106
+line_number_start: 9
+line_highlights: 10-11, 13-14, 22, 24
 ---
-.row-five {
-  background: greenyellow;
-}
+ <section class="row row-one">
+    <p class="square"></p>
+    <p class="square"></p>
+    <p class="square">Mostly glitter</p>
+    <p class="square"></p>
+    <p class="square"></p>
+  </section>
 
-.row-six {
-  background: orange;
-}
+  <section class="row row-two">
+    <p class="rounded">A SERIOUS ART</p>
+  </section>
 
-.circle {
-  width: 66px;
-  height: 66px;
-  background: radial-gradient(circle, lime, mediumorchid);
-  border-radius: 50%;
-  font-size: 10px;
-}
-
-.row-six {
-  overflow: hidden;
-}
-
-.ticker {
-  display: flex;
-  width: max-content;
-  animation: ticker 12s linear infinite;
-}
-
-.ticker-set {
-  display: inline-flex;
-  gap: 12px;
-  min-width: 100vw;
-  flex-shrink: 0;
-}
-
-@keyframes ticker {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(-50%);
-  }
-}
+  <section class="row row-three">
+    <p class="banner"></p>
+    <p class="banner">UNICORN POOP</p>
+    <p class="banner"></p>
+  </section>
 --- /code ---
 
+</div>
+
 ### Now run your code
-Check that the final row scrolls across the screen again and again.
+Check that the blank shapes make a pattern around your words. Experiment with mixing the shapes across the rows.
 
 <div class="c-project-output">
 
-![A colourful page with circular ticker words moving across the final row.](images/step_8_output.png)
+![Rows decorated with blank shapes.](images/step8.png)
 
 </div>
