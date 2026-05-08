@@ -1,6 +1,6 @@
 ## Challenge: style the ticker
 
-Add the **CSS** to move the ticker text.
+Add the **CSS** to move the ticker text. The animation slides the ticker sideways, and the row hides anything that moves outside its edges.
 
 <div class="c-project-code">
 
@@ -52,7 +52,7 @@ line_highlights: 65-95
 </div>
 
 ### Now run your code
-Check that the final row scrolls across the screen. You can experiment with speed by editing the animation values.
+Check that the final row scrolls across the screen. You can experiment with speed by editing the `animation: ticker` values or change the layout by editing the `gap:`.
 
 <div class="c-project-output">
 

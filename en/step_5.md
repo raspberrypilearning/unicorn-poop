@@ -1,6 +1,6 @@
 ## Make more rows
 
-In the **html tab** add more rows. Two more rows are shown here, replace the text with your own words.
+In the **html tab** add more rows inside the body tags. Two more rows are shown here, replace the text with your own words.
 
 <div class="c-project-code">
 

@@ -32,7 +32,7 @@ line_highlights: 28-43
 </div>
 
 ### Now run your code
-Check that the words sit in the middle of each shape. 
+Check that the words sit in the middle of each shape. Experiment with the `margin`, `padding` and `min` to get the look you want.
 
 <div class="c-project-output">
 

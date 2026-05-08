@@ -11,7 +11,7 @@ Add the CSS code to style the rows, and replace the colour name with your own.
 > ### Tip
 > 
 > To change a colour, start typing your favourite colour and the editor will autocomplete. 
-> Visit <a href="https://www.w3schools.com/colors/colors_hex.asp">this website</a> to find more colour names.
+> Visit <a href="https://www.w3schools.com/colors/colors_hex.asp" target=“_blank”>this website</a> to find more colour names.
 {: .c-project-callout .c-project-callout--tip}
 
 <div class="c-project-code">

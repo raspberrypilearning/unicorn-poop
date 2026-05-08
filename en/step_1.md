@@ -1,6 +1,6 @@
 ## Add text to the rows
 
-In the **HTML tab** add the first two rows. You can replace the text after the `<p>` with your own words.
+In the **HTML tab** add the first two rows inside the body tags. You can replace the text after the `<p>` with your own words.
 
 <div class="c-project-code">
 

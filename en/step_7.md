@@ -1,6 +1,6 @@
 ## Line up the shapes
 
-Add the shape names to the shared CSS.
+Add the shape names to the shared CSS rules, so every shape uses the same instructions for lining up its text.
 
 <div class="c-project-code">
 

@@ -11,7 +11,7 @@ First in the **html tab** add a new row, with two sets of ticker text.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 29
+line_number_start: 32
 line_highlights: 29-49
 ---
     <p class="rectangle">smells like sweets</p>
