@@ -1,5 +1,6 @@
 ## Make some shapes
 
+### Step 1
 In the **HTML tab**, add the shape classes `square` and `rounded` inside both of the `<p>` tags.
 
 <div class="c-project-code">
@@ -22,6 +23,8 @@ line_highlights: 10, 14
 --- /code ---
 
 </div>
+
+### Step 2
 
 In the **CSS tab**, style the shapes:
 

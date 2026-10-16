@@ -1,6 +1,10 @@
 ## Colour the rows
 
+### Step 1
+
 Open the CSS file from the project files tab.
+
+### Step 2
 
 Add the CSS code to style the rows, and replace the colour name with your own.
 
