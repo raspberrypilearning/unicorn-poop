@@ -2,7 +2,7 @@
 
 As a challenge, animate your site with a news ticker.
 
-First in the **html tab** add a new row, with two sets of ticker text.
+First, in the **HTML tab**, add a new row with two sets of ticker text.
 
 <div class="c-project-code">
 
