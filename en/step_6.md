@@ -1,9 +1,9 @@
 ## Style the new rows
 
-Then style the new rows and shapes in the **CSS tab**.
+Style the new rows and shapes in the **CSS tab**.
 
 ### Step 1
-Change the background colours on each new row.
+Change the background colours for each new row.
 
 <div class="c-project-code">
 
@@ -66,7 +66,7 @@ line_highlights: 36-46
 </div>
 
 ### Now run your code
-Check that the new rows and shapes look how you want.
+Check that the new rows and shapes look how you want them.
 
 > ### Debugging
 > 
