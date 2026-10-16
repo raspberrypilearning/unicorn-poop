@@ -1,7 +1,7 @@
 ## Make some shapes
 
 ### Step 1
-In the **HTML tab**, add shape the classes `square` and `rounded` inside both of the `<p>` tags.
+In the **HTML tab**, add the shape classes `square` and `rounded` inside both of the `<p>` tags.
 
 <div class="c-project-code">
 
@@ -28,8 +28,8 @@ line_highlights: 10, 14
 
 In the **CSS tab**, style the shapes:
 
-- edit the colour of the gradients by changing the names
-- experiment with the `border-radius` and `linear-gradient` values.
+- Edit the colour of the gradients by changing the names
+- Experiment with the `border-radius` and `linear-gradient` values
 
 <div class="c-project-code">
 
@@ -54,7 +54,7 @@ line_highlights: 19-26
 </div>
 
 ### Now run your code
-Check that the words have colourful shape backgrounds.
+Check that the words have colourful shaped backgrounds.
 
 <div class="c-project-output">
 
