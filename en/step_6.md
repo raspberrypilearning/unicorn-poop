@@ -2,7 +2,6 @@
 
 Style the new rows and shapes in the **CSS tab**.
 
-### Step 1
 Change the background colours for each new row.
 
 <div class="c-project-code">
@@ -31,7 +30,6 @@ line_highlights: 19-25
 
 </div>
 
-### Step 2
 Experiment with new shapes.
 
 <div class="c-project-code">
